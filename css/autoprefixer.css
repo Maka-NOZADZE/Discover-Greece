@@ -1,0 +1,115 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.12,
+* Autoprefixer: v10.4.4
+* Browsers: last 4 version
+*/
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 100px 10px 50px;
+  padding: 20px;
+}
+header > a {
+  /* margin-left: 50px; */
+}
+.header_navigation {
+  width: 600px;
+  /* background-color: bisque; */
+}
+.header_ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.header_ul > li {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+/* sectio1 */
+
+.section1_container {
+  width: 100wh;
+  height: 100vh;
+  background-image: url("../images/istockphoto-475124388-612x612.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* object-fit: contain; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+.section1_container > h1 {
+  font-size: 50px;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+.section1_container > h3 {
+  font-size: 20px;
+}
+
+/* section2 */
+
+.container_section2 {
+  width: 1170px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.text {
+  width: 368px;
+  margin-right: 100px;
+}
+.text > h3 {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.text > h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.photos_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.box1 {
+  width: 270px;
+}
+.box1 img {
+  margin-bottom: 10px;
+}
+.box1 h4 {
+  margin-bottom: 8px;
+}
+.box1 p {
+  margin-bottom: 30px;
+}
